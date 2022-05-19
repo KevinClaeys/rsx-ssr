@@ -17,4 +17,4 @@ jobs:
       - name: Deploy
         uses: cmgriffing/scully-gh-pages-action@v9
         with:
-          github_token: ${{ secrets.ACTION_DEPLOY_KEY }}
+          access-token: ${{ secrets.ACTION_DEPLOY_KEY }}
