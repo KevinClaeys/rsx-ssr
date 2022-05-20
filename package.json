@@ -24,6 +24,7 @@
     "@scullyio/init": "^2.1.32",
     "@scullyio/ng-lib": "^2.1.0",
     "@scullyio/scully": "^2.1.0",
+    "@scullyio/scully-plugin-base-href-rewrite": "^2.1.32",
     "@scullyio/scully-plugin-puppeteer": "^2.1.0",
     "contentful": "^9.1.29",
     "rxjs": "~6.6.0",
