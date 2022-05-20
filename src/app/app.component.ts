@@ -1,9 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ContentfulService } from '../services/contentful.service';
-import { Entry } from 'contentful';
 import { isScullyGenerated, TransferStateService } from '@scullyio/ng-lib';
 import { catchError, shareReplay, tap } from 'rxjs/operators';
-import { Observable, of } from 'rxjs';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-root',

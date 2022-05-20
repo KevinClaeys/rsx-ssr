@@ -25,6 +25,7 @@
     "@scullyio/ng-lib": "^2.1.0",
     "@scullyio/scully": "^2.1.0",
     "@scullyio/scully-plugin-puppeteer": "^2.1.0",
+    "contentful": "^9.1.29",
     "rxjs": "~6.6.0",
     "scully-plugin-contentful": "^0.1.5",
     "tslib": "^2.3.0",

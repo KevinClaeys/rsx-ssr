@@ -1,7 +1,7 @@
 // ./src/app/contentful.service.ts
 import { Injectable } from '@angular/core';
 // import Contentful createClient and type for `Entry`
-import { createClient, Entry } from 'contentful';
+import { createClient } from 'contentful';
 import { from, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { CorporateInfo } from '../models/corporate-info.model';
