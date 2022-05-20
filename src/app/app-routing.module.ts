@@ -4,9 +4,6 @@ import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'corporate', pathMatch: 'full'
-  },
-  {
     path: 'corporate', loadChildren: () => import('./corporate-info/corporate-info.module').then(m => m.CorporateInfoModule),
   }
 ];
