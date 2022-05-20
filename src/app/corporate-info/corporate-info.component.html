@@ -1,0 +1,6 @@
+<section class="corporate-info__container" *ngIf="corporateInfo$ | async as corporateInfo">
+  <h1>{{ corporateInfo.title }}</h1>
+  <div  *ngFor="let p of corporateInfo.description">
+    <p>{{ p }}</p>
+  </div>
+</section>

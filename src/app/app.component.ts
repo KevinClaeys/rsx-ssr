@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ContentfulService } from '../services/contentful.service';
+import { Entry } from 'contentful';
+import { isScullyGenerated, TransferStateService } from '@scullyio/ng-lib';
+import { catchError, shareReplay, tap } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'rsx-ssr';
+  api$ = this.contentfulService.getBanner().pipe(
+    catchError(() => of('')),
+    shareReplay(1)
+  );
+
+  title$ = isScullyGenerated() ? this.transferState.getState<string>('banner')
+    : this.api$.pipe(tap((title: string) =>
+    {
+      this.transferState.setState<string>('banner', title ?? '');
+    })
+    );
+
+  constructor(private contentfulService: ContentfulService, private transferState: TransferStateService) {
+  }
 }

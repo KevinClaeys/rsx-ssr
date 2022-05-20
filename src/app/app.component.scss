@@ -1,0 +1,108 @@
+header {
+  background-color: white;
+  padding: 1rem;
+}
+
+.page__container__image > svg {
+  width: 100%;
+}
+
+.page__container__logo > svg {
+  outline: none;
+  height: 2rem;
+}
+
+.maintenance__banner {
+  border: 1px dotted #002aff;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-top: 10px;
+  width: 100%;
+  height: 30px;
+  color: #c50000;
+  text-transform: uppercase;
+
+  &__text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+
+    -moz-animation: my-animation 45s linear infinite;
+    -webkit-animation: my-animation 45s linear infinite;
+    animation: my-animation 45s linear infinite;
+  }
+}
+
+.page__container {
+  padding: 5rem;
+  background-color: white;
+  width: 60%;
+  margin: 5rem auto;
+}
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #aeaeae;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff8b3f;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
