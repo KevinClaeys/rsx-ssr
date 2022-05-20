@@ -14,9 +14,11 @@ jobs:
         with:
           node-version: "16"
 
+      - run: npm ci
+      - run: npm run build && npm run scully
+        
       - name: Deploy
-        uses: cmgriffing/scully-gh-pages-action@v9
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          access-token: ${{ secrets.ACTION_DEPLOY_KEY }}
-          deploy-branch: gh-pages
-          build-args: --prod
+          github_token: ${{ secrets.ACTION_DEPLOY_KEY }}
+          publish_dir: dist/rsx-ssr
