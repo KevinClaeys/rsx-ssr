@@ -7,7 +7,6 @@ setPluginConfig(baseHrefRewrite, {
 })
 
 export const config: ScullyConfig = {
-  defaultPostRenderers,
   projectRoot: "./src",
   projectName: "rsx-ssr",
   // add spsModulePath when using de Scully Platform Server,
