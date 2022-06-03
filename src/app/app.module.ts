@@ -8,7 +8,7 @@ import { ContentfulService } from '../services/contentful.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,12 @@
 // ./src/app/contentful.service.ts
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 // import Contentful createClient and type for `Entry`
-import { createClient } from 'contentful';
-import { from, Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
-import { CorporateInfo } from '../models/corporate-info.model';
+import {createClient, Entry, EntryCollection} from 'contentful';
+import {from, Observable} from 'rxjs';
+import {map} from 'rxjs/operators';
+import {CorporateInfo} from '../models/corporate-info.model';
+import {News, NewsItem} from "../models/news.model";
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
 // configure the service with tokens and content type ids
 // SET YOU OWN CONFIG here
@@ -14,7 +16,8 @@ const CONFIG = {
 
   contentTypeIds: {
     banner: 'banner',
-    corporateInfo: 'corporateInfo'
+    corporateInfo: 'corporateInfo',
+    news: 'news'
   }
 };
 
@@ -25,7 +28,8 @@ export class ContentfulService {
     accessToken: CONFIG.accessToken
   });
 
-  constructor() {}
+  constructor() {
+  }
 
   getBanner(query?: object): Observable<string> {
     return from(
@@ -51,9 +55,43 @@ export class ContentfulService {
       map(res => {
         // @ts-ignore
         const flattenedContent = res.items[0].fields.description.content.flatMap((x) => x.content);
-        // @ts-ignore
-        return { title: res.items[0].fields.title.toString(), description: flattenedContent.map((content) => content.value) } as CorporateInfo
+        return {
+          title: (res as any).items[0].fields.title.toString(),
+          description: flattenedContent.map((content: { value: any; }) => content.value)
+        } as CorporateInfo
+      })
+    );
+  }
+
+  getNews(query?: object): Observable<News> {
+    return from(
+      this.cdaClient.getEntries<NewsItemResponse>({
+        ...query,
+        content_type: CONFIG.contentTypeIds.news
+      })
+    ).pipe(
+      map((res: EntryCollection<NewsItemResponse>) => {
+
+        return {
+          items: res.items.map((item: Entry<NewsItemResponse>) => {
+            return {
+              title: item.fields.title.toString(),
+              subTitle: item.fields.subtitle?.toString() || '',
+              date: item.fields.date.substring(0, 10),
+              content: documentToHtmlString(item.fields.message),
+            };
+          })
+        };
       })
     );
   }
 }
+
+interface NewsItemResponse {
+      title: String,
+      date: String,
+      subtitle?: String,
+      message: any,
+      image: unknown // TODO
+}
+

@@ -12,6 +12,7 @@ export const config: ScullyConfig = {
   projectName: "rsx-ssr",
   // add spsModulePath when using de Scully Platform Server,
   outDir: './dist/rsx-ssr',
+
   routes: {
   }
 };

@@ -1,0 +1,10 @@
+<section class="news__container" *ngIf="news$ | async as news">
+  <h1>Latest news</h1>
+  <div class="news__item"  *ngFor="let item of news.items">
+    <p class="news__date">[{{ item.date }}]</p>
+    <h2>{{ item.title }}</h2>
+    <p>{{ item.subTitle }}</p>
+    <p [innerHTML]="item.content"></p>
+    <hr />
+  </div>
+</section>
