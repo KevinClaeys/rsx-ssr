@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: 'echo "SpaceID: ${{ github.event.spaceId }}"'
+      - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }}"'
       - uses: actions/checkout@v1
 
       - name: Setup Node
