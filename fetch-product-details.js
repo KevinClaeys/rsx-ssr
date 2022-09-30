@@ -29,7 +29,7 @@ client.getSpace(options.space)
     });
 
     console.table(routes);
-    fs.writeFileSync('./routes.txt', routes.join(endOfLine), 'utf8');
-    fs.writeFileSync('./products.json', JSON.stringify(products, null, 2) + '\n', 'utf8');
+    fs.writeFileSync(`./${options.space}/routes.txt`, routes.join(endOfLine), 'utf8');
+    fs.writeFileSync(`./${options.space}/products.json`, JSON.stringify(products, null, 2) + '\n', 'utf8');
   })
   .catch(console.error)
