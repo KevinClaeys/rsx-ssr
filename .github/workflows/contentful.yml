@@ -9,6 +9,8 @@ jobs:
     steps:
       - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }}"'
       - uses: actions/checkout@v1
+        with: 
+         ref: ${{ github.head_ref }}
 
       - name: Setup Node
         uses: actions/setup-node@v2
@@ -21,4 +23,3 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: GH-Action Update product details
-          branch: main
