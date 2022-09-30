@@ -1,7 +1,7 @@
 name: Build on Contentful Publish Event
 on:
     repository_dispatch:
-        types: [publish-channel-configuration]
+        types: [publish-channel-configuration-event]
 
 jobs:
   deploy:
