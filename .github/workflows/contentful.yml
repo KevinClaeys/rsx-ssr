@@ -7,7 +7,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }}"'
+      - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }} - SpaceName: ${{ github.event.client_payload.spaceName }} - Environment: ${{ github.event.client_payload.environment }}"'
       
       - uses: actions/checkout@v3
         with: 
