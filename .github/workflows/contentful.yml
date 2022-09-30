@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: "16"
 
-      - run: node ../../fetch-product-details.js -s u962r8i34sue -e develop -a CFPAT-itlHJqIJT2WzBrQO4FdUwuOT6ShCg562nv_D0XX_HKI
+      - run: node fetch-product-details.js -s u962r8i34sue -e develop -a CFPAT-itlHJqIJT2WzBrQO4FdUwuOT6ShCg562nv_D0XX_HKI
