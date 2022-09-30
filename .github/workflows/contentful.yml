@@ -7,7 +7,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: webfactory/ssh-agent@v0.2.0
+        with:
+         ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+         
       - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }}"'
+      
       - uses: actions/checkout@v3
         with: 
          ref: main
