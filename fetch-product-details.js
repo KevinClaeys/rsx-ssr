@@ -42,7 +42,7 @@ function ensureDirectoryExistence(filePath) {
     return true;
   }
 
-  fs.mkdir(filePath, { recursive: true }, (err) => {
+  fs.mkdirSync(filePath, { recursive: true }, (err) => {
     if (err) throw err;
   });
 }
