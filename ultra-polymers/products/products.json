@@ -1,21 +1,43 @@
 [
   {
     "name": {
-      "en-US": "Tenac™"
+      "en-US": "KC Product"
     },
     "description": {
-      "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
+      "en-US": "KC Description"
     },
-    "details": {
+    "countries": {
       "en-US": [
         {
           "sys": {
             "type": "Link",
             "linkType": "Entry",
-            "id": "5z7fhRDfXI8tX0HPFKDf7f"
+            "id": "4wqsDwzrXzZ3x253Gs1dxQ"
           }
         }
       ]
+    }
+  },
+  {
+    "name": {
+      "en-US": "blabla"
+    },
+    "countries": {
+      "en-US": [
+        {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "539AS6cBmIZtYmvm6YnRek"
+          }
+        }
+      ]
+    },
+    "ranking": {
+      "en-US": 1
+    },
+    "ulPortfolio": {
+      "en-US": true
     }
   }
 ]

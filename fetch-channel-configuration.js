@@ -19,19 +19,11 @@ const client = contentful.createClient({
 
 client.getSpace(options.space)
   .then((space) => space.getEnvironment(options.environment))
-  .then((environment) => environment.getPublishedEntries({'content_type': 'product'}))
+  .then((environment) => environment.getPublishedEntries({'content_type': 'channelConfiguration'}))
   .then((res) => {
-    const routes = [];
-    const products = []
-
-    res.items.forEach((product) => {
-      routes.push('product/' + product.sys.id);
-    });
-
-    const directory = `./apps/${options.spaceName}/src/assets/data/products`
+    const directory = `./apps/${options.spaceName}/src/assets/data/configuration`
     ensureDirectoryExistence(directory);
-    fs.writeFileSync(`${directory}/routes.txt`, routes.join(endOfLine), 'utf8');
-    fs.writeFileSync(`${directory}/products.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
+    fs.writeFileSync(`${directory}/configuration.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
   })
   .catch(console.error)
 
