@@ -30,7 +30,6 @@
     "contentful": "^9.1.29",
     "contentful-management": "^10.15.1",
     "rxjs": "~6.6.0",
-    "scully-plugin-contentful": "^0.1.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
