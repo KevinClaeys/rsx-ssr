@@ -10,7 +10,7 @@ jobs:
       - run: 'echo "SpaceID: ${{ github.event.client_payload.spaceId }}"'
       - uses: actions/checkout@v1
         with: 
-         ref: ${{ github.head_ref }}
+         ref: main
 
       - name: Setup Node
         uses: actions/setup-node@v2
