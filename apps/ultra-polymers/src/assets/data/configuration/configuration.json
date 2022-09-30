@@ -21,7 +21,7 @@
         "id": "3JTp70s2wm39OV6cZp3m0t",
         "type": "Entry",
         "createdAt": "2022-09-30T11:13:12.521Z",
-        "updatedAt": "2022-09-30T11:43:43.158Z",
+        "updatedAt": "2022-09-30T11:47:06.001Z",
         "environment": {
           "sys": {
             "id": "develop",
@@ -29,10 +29,10 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 9,
-        "publishedAt": "2022-09-30T11:43:43.158Z",
+        "publishedVersion": 11,
+        "publishedAt": "2022-09-30T11:47:06.001Z",
         "firstPublishedAt": "2022-09-30T11:13:12.521Z",
-        "revision": 4,
+        "revision": 5,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -43,7 +43,7 @@
       },
       "fields": {
         "name": {
-          "en-US": "Ultra Polymers"
+          "en-US": "Ultra Polymers."
         },
         "logo": {
           "en-US": {
