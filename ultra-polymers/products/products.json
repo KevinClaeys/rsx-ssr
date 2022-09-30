@@ -1,6 +1,14 @@
 [
   {
     "name": {
+      "en-US": "KC Product1"
+    },
+    "description": {
+      "en-US": "KC Description"
+    }
+  },
+  {
+    "name": {
       "en-US": "KC Product"
     },
     "description": {
