@@ -17,3 +17,7 @@ jobs:
 
       - run: npm install
       - run: node fetch-product-details.js -s u962r8i34sue -e develop -a CFPAT-itlHJqIJT2WzBrQO4FdUwuOT6ShCg562nv_D0XX_HKI
+      
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: GH-Action Update product details
