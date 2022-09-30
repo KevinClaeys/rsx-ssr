@@ -7,6 +7,7 @@ const fs = require('fs');
 
 program
   .option('-s, --space <spaceId>', 'contentful spaceId')
+  .option('-sn, --spaceName <spaceName>', 'contentful spaceName')
   .option('-e, --environment <environmentId>', 'contentful environment')
   .option('-a, --api-key <apiKey>', 'apiKey');
 
@@ -29,7 +30,7 @@ client.getSpace(options.space)
     });
 
     console.table(routes);
-    const directory = `./${options.space}/products`
+    const directory = `./${options.spaceName}/products`
     ensureDirectoryExistence(directory);
     fs.writeFileSync(`./${directory}/routes.txt`, routes.join(endOfLine), 'utf8');
     fs.writeFileSync(`./${directory}/products.json`, JSON.stringify(products, null, 2) + '\n', 'utf8');
@@ -40,5 +41,8 @@ function ensureDirectoryExistence(filePath) {
   if (fs.existsSync(filePath)) {
     return true;
   }
-  fs.mkdirSync(filePath);
+
+  fs.mkdir(filePath, { recursive: true }, (err) => {
+    if (err) throw err;
+  });
 }
