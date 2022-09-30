@@ -1,6 +1,14 @@
 [
   {
     "name": {
+      "en-US": "KC Product"
+    },
+    "description": {
+      "en-US": "KC Description"
+    }
+  },
+  {
+    "name": {
       "en-US": "Tenac™"
     },
     "description": {
