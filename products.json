@@ -1,0 +1,43 @@
+[
+  {
+    "name": {
+      "en-US": "KC Product"
+    },
+    "description": {
+      "en-US": "KC Description"
+    },
+    "countries": {
+      "en-US": [
+        {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "4wqsDwzrXzZ3x253Gs1dxQ"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": {
+      "en-US": "blabla"
+    },
+    "countries": {
+      "en-US": [
+        {
+          "sys": {
+            "type": "Link",
+            "linkType": "Entry",
+            "id": "539AS6cBmIZtYmvm6YnRek"
+          }
+        }
+      ]
+    },
+    "ranking": {
+      "en-US": 1
+    },
+    "ulPortfolio": {
+      "en-US": true
+    }
+  }
+]
