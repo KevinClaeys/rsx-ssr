@@ -21,7 +21,7 @@
         "id": "47AdD7tXakHF9aVX6xLxRw",
         "type": "Entry",
         "createdAt": "2022-09-30T10:45:38.535Z",
-        "updatedAt": "2022-09-30T11:31:15.776Z",
+        "updatedAt": "2022-09-30T11:47:37.469Z",
         "environment": {
           "sys": {
             "id": "develop",
@@ -29,10 +29,10 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2022-09-30T11:31:15.776Z",
+        "publishedVersion": 9,
+        "publishedAt": "2022-09-30T11:47:37.469Z",
         "firstPublishedAt": "2022-09-30T10:45:38.535Z",
-        "revision": 2,
+        "revision": 3,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -46,7 +46,7 @@
           "en-US": "Acetal (POM) Copolymer"
         },
         "description": {
-          "en-US": "Ultraform® is the brand name for BASF’s polyoxymethylene product range. It comprises versatile engineering plastics having a wide array of properties designed for use in sophisticated components that are capable of withstanding high stresses..\n\nSo Ultraform® is suitable for many applications in automotive manufacturing, in medical technology, for household and recreation, but also for machine and plant construction."
+          "en-US": "Ultraform® is the brand name for BASF’s polyoxymethylene product range. It comprises versatile engineering plastics having a wide array of properties designed for use in sophisticated components that are capable of withstanding high stresses.\n\nSo Ultraform® is suitable for many applications in automotive manufacturing, in medical technology, for household and recreation, but also for machine and plant construction."
         },
         "features": {
           "en-US": [
