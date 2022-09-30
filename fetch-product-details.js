@@ -29,7 +29,17 @@ client.getSpace(options.space)
     });
 
     console.table(routes);
+    ensureDirectoryExistence(`./${options.space}/`);
     fs.writeFileSync(`./${options.space}/routes.txt`, routes.join(endOfLine), 'utf8');
     fs.writeFileSync(`./${options.space}/products.json`, JSON.stringify(products, null, 2) + '\n', 'utf8');
   })
   .catch(console.error)
+
+function ensureDirectoryExistence(filePath) {
+  var dirname = path.dirname(filePath);
+  if (fs.existsSync(dirname)) {
+    return true;
+  }
+  ensureDirectoryExistence(dirname);
+  fs.mkdirSync(dirname);
+}
