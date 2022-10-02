@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { ContentfulService } from '../services/contentful.service';
+import { FaketentfulService } from '../services/faketentful.service';
+import { contentfulServiceProvider } from './context.service.provider';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,7 @@ import { ContentfulService } from '../services/contentful.service';
     AppRoutingModule,
     ScullyLibModule
   ],
-  providers: [ContentfulService],
+  providers: [contentfulServiceProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

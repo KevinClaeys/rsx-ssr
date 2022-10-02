@@ -2,10 +2,10 @@
 import {Injectable} from '@angular/core';
 // import Contentful createClient and type for `Entry`
 import {createClient, Entry, EntryCollection} from 'contentful';
-import {from, Observable} from 'rxjs';
+import { from, Observable } from 'rxjs';
 import {map} from 'rxjs/operators';
 import {CorporateInfo} from '../models/corporate-info.model';
-import {News, NewsItem} from "../models/news.model";
+import {News} from "../models/news.model";
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
 // configure the service with tokens and content type ids
@@ -23,7 +23,7 @@ const CONFIG = {
 
 @Injectable()
 export class ContentfulService {
-  private cdaClient = createClient({
+  protected cdaClient = createClient({
     space: CONFIG.space,
     accessToken: CONFIG.accessToken
   });
@@ -81,7 +81,7 @@ export class ContentfulService {
               content: documentToHtmlString(item.fields.message),
             };
           })
-        };
+        } as News;
       })
     );
   }

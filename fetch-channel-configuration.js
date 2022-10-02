@@ -23,7 +23,7 @@ client.getSpace(options.space)
   .then((res) => {
     const directory = `./apps/${options.spaceName}/src/assets/data/configuration`
     ensureDirectoryExistence(directory);
-    fs.writeFileSync(`${directory}/configuration.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
+    fs.writeFileSync(`${directory}/data.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
   })
   .catch(console.error)
 

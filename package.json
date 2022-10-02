@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "scully": "npx scully",
-    "scully:serve": "scully serve"
+    "scully": "ng build && npx scully",
+    "scully:serve": "scully serve --exclude-routes /corporate"
   },
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
     "@scullyio/scully-plugin-puppeteer": "^2.1.0",
     "contentful": "^9.1.29",
     "contentful-management": "^10.15.1",
-    "rxjs": "~6.6.0",
+    "rxjs": "~7.5.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

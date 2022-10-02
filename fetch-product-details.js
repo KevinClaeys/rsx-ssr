@@ -31,7 +31,7 @@ client.getSpace(options.space)
     const directory = `./apps/${options.spaceName}/src/assets/data/products`
     ensureDirectoryExistence(directory);
     fs.writeFileSync(`${directory}/routes.txt`, routes.join(endOfLine), 'utf8');
-    fs.writeFileSync(`${directory}/products.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
+    fs.writeFileSync(`${directory}/data.json`, JSON.stringify(res, null, 2) + '\n', 'utf8');
   })
   .catch(console.error)
 
