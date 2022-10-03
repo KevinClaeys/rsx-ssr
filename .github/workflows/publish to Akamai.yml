@@ -11,7 +11,7 @@ jobs:
       - name: 📂 Sync Files
         uses: SamKirkland/web-deploy@v1
         with:
-          target-server: ravago-ssg-uat-nsu.sftp.upload.akamai.com
+          target-server: ravago-ssg-uat.ssh.upload.akamai.com
           remote-user: ns_ravago-ssg-uat
           private-ssh-key: ${{ secrets.AKAMAI_SSH_KEY }}
           source-path: ./dist/static/
