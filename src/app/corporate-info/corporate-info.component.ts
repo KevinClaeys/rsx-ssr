@@ -4,7 +4,6 @@ import { of } from 'rxjs';
 import { TransferStateService } from '@scullyio/ng-lib';
 import { ContentfulService } from '../../services/contentful.service';
 import { CorporateInfo } from '../../models/corporate-info.model';
-import { News } from '../../models/news.model';
 
 @Component({
   selector: 'app-corporate-info',
