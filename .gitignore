@@ -50,5 +50,3 @@ scullyStats.json
 /scully/**/*.js
 /scully/**/*.js.map
 /scully/**/*.d.ts
-apps/ultra-polymers/src/assets/data/configuration/data.json
-apps/ultra-polymers/src/assets/data/products/data.json
