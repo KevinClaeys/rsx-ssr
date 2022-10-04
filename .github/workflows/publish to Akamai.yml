@@ -1,23 +1,18 @@
 on: push
-name: Publish App to Akamai
-jobs:
-  web-deploy:
-    name: Deploy Website to Akamai Every Commit
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🚚 Get Latest Code
-        uses: actions/checkout@v3
+  jobs:
+    build-and-deploy:
+      steps:
+        - name: Install SSH Key
+          uses: shimataro/ssh-key-action@v2
+          with:
+            key: ${{ secrets.AKAMAI_SSH_KEY }}
+            known_hosts: unnecessary
 
-      - name: 📂 Sync Files
-        uses: SamKirkland/web-deploy@v1
-        with:
-          target-server: ravago-ssg-uat.ssh.upload.akamai.com
-          remote-user: sshacs
-          private-ssh-key: ${{ secrets.AKAMAI_SSH_KEY }}
-          source-path: ./dist/static/
-          ssh-port: 22
-          destination-path: ~/
-          rsync-options: --dry-run
+        - name: Adding Known Hosts
+          run: ssh-keyscan -p 22 -H ravago-ssg-uat.ssh.upload.akamai.com  >> ~/.ssh/known_hosts
+
+        - name: Deploy with rsync
+          run: rsync -avz -e "ssh -p 22" ./dist/static sshacs@$ravago-ssg-uat.ssh.upload.akamai.com:/
 
 
 
