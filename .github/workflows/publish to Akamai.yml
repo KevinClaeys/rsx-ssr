@@ -15,7 +15,7 @@ jobs:
           known_hosts: unnecessary
 
       - name: Adding Known Hosts
-        run: ssh-keyscan -p 22 -H ravago-ssg-uat.ssh.upload.akamai.com  >> ~/.ssh/known_hosts
+        run: ssh-keyscan -p 22 -H 184.28.172.141  >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync
-        run: rsync -avz -e "ssh -p 22" ./dist/static sshacs@$ravago-ssg-uat.ssh.upload.akamai.com:/
+        run: rsync -avz -e "ssh -p 22" ./dist/static sshacs@184.28.172.141:/
