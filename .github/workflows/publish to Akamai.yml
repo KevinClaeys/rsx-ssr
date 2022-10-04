@@ -12,7 +12,7 @@ jobs:
         uses: SamKirkland/web-deploy@v1
         with:
           target-server: ravago-ssg-uat.ssh.upload.akamai.com
-          remote-user: ns_ravago-ssg-uat
+          remote-user: sshacs
           private-ssh-key: ${{ secrets.AKAMAI_SSH_KEY }}
           source-path: ./dist/static/
           ssh-port: 22
