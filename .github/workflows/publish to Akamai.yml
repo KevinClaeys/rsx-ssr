@@ -8,17 +8,16 @@ jobs:
       - name: 🚚 Get Latest Code
         uses: actions/checkout@v3
 
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
+      - name: 📂 Sync Files
+        uses: SamKirkland/web-deploy@v1
         with:
-          key: ${{ secrets.AKAMAI_SSH_KEY }}
-          known_hosts: unnecessary
+          target-server: ravago-ssg-uat.ssh.upload.akamai.com
+          remote-user: sshacs
+          private-ssh-key: ${{ secrets.AKAMAI_SSH_KEY }}
+          source-path: ./dist/static/
+          ssh-port: 22
+          destination-path: ~/
+          rsync-options: --dry-run
 
-      - name: Adding Known Hosts
-        uses: kielabokkie/ssh-key-and-known-hosts-action@v1
-        with:
-          ssh-private-key: ${{ secrets.AKAMAI_SSH_KEY }}
-          ssh-host: ravago-ssg-uat.ssh.upload.akamai.com
 
-      - name: Deploy with rsync
-        run: rsync -avz -e "ssh -p 22" ./dist/static sshacs@ravago-ssg-uat.ssh.upload.akamai.com:/
+
