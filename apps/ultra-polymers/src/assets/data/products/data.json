@@ -18,6 +18,121 @@
             "id": "u962r8i34sue"
           }
         },
+        "id": "142",
+        "type": "Entry",
+        "createdAt": "2022-09-29T16:01:03.928Z",
+        "updatedAt": "2022-10-24T09:30:34.533Z",
+        "environment": {
+          "sys": {
+            "id": "develop",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2022-10-24T09:30:34.533Z",
+        "firstPublishedAt": "2022-09-29T16:01:03.928Z",
+        "revision": 6,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Acetal (POM) Homopolymer"
+        },
+        "description": {
+          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
+        },
+        "form": {
+          "en-US": "Empty"
+        },
+        "quality": {
+          "en-US": "Empty"
+        },
+        "ranking": {
+          "en-US": 1
+        },
+        "ulPortfolio": {
+          "en-US": true
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Z5LFiRUd2wA96xs4ponBH"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7wAPCMMQo0MUPXqynqSu6R"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5HkDpOy5uB4kcZN7YWNc4E"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1C4N6Sgtom7ax5lxCk6HsW"
+              }
+            }
+          ]
+        },
+        "producer": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "producer-19014"
+            }
+          }
+        },
+        "brand": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6eYJAtgkpxMrhe5ec5f2CA"
+            }
+          }
+        },
+        "polymerSubgroup": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u962r8i34sue"
+          }
+        },
         "id": "47AdD7tXakHF9aVX6xLxRw",
         "type": "Entry",
         "createdAt": "2022-09-30T10:45:38.535Z",
@@ -202,121 +317,6 @@
               "type": "Link",
               "linkType": "Entry",
               "id": "1j8mek6dzdNHwlmbsDxuYZ"
-            }
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "u962r8i34sue"
-          }
-        },
-        "id": "142",
-        "type": "Entry",
-        "createdAt": "2022-09-29T16:01:03.928Z",
-        "updatedAt": "2022-10-12T14:00:29.552Z",
-        "environment": {
-          "sys": {
-            "id": "develop",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 19,
-        "publishedAt": "2022-10-12T14:00:29.552Z",
-        "firstPublishedAt": "2022-09-29T16:01:03.928Z",
-        "revision": 5,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "product"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Acetal (POM) Homopolymer"
-        },
-        "description": {
-          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
-        },
-        "form": {
-          "en-US": "Empty"
-        },
-        "quality": {
-          "en-US": "Empty"
-        },
-        "ranking": {
-          "en-US": 1
-        },
-        "ulPortfolio": {
-          "en-US": false
-        },
-        "features": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Z5LFiRUd2wA96xs4ponBH"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "7wAPCMMQo0MUPXqynqSu6R"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5HkDpOy5uB4kcZN7YWNc4E"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1C4N6Sgtom7ax5lxCk6HsW"
-              }
-            }
-          ]
-        },
-        "producer": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "producer-19014"
-            }
-          }
-        },
-        "brand": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6eYJAtgkpxMrhe5ec5f2CA"
-            }
-          }
-        },
-        "polymerSubgroup": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6iAxcAfKJvm2zofKbIUfyD"
             }
           }
         }
