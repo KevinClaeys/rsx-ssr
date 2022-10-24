@@ -18,6 +18,312 @@
             "id": "u962r8i34sue"
           }
         },
+        "id": "5SDpFXxfpVy8hmV6AB08wy",
+        "type": "Entry",
+        "createdAt": "2022-09-30T10:44:25.893Z",
+        "updatedAt": "2022-10-24T11:11:24.921Z",
+        "environment": {
+          "sys": {
+            "id": "develop",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 16,
+        "publishedAt": "2022-10-24T11:11:24.921Z",
+        "firstPublishedAt": "2022-09-30T10:44:25.893Z",
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "PBT"
+        },
+        "brand": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "11XedMQUUKUf6hVz1V1Osw"
+            }
+          }
+        },
+        "description": {
+          "en-US": "__Ultradur® – the polybutylene terephthalate (PBT) for high-quality components__\n\nUltradur® is BASF’s brand name for its line of partially crystalline, thermoplastic, saturated polyesters derived from polybutylene terephthalate (PBT). They are employed as materials for high-quality technical components in many industry sectors.\n\nUltradur® is especially suited for components in automotive construction as well as electrical engineering and electronics, but also for household, construction and packaging applications.\n\nUltradur® is a highly stressable material:\n\n- high rigidity and strength\n- very good dimensional stability under heat\n- low water absorption\n- good resistance to many chemicals\n- exceptional resistance to weathering\n- excellent heat ageing behavior"
+        },
+        "form": {
+          "en-US": "Granules"
+        },
+        "quality": {
+          "en-US": "Prime"
+        },
+        "ranking": {
+          "en-US": 3
+        },
+        "ulPortfolio": {
+          "en-US": true
+        },
+        "fillers": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6wru4Mdi5GoWwljMPfiJjQ"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2II1dkFbYoFFRwh1qU4lqb"
+              }
+            }
+          ]
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Z5LFiRUd2wA96xs4ponBH"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "21si4J9Ow9XuCMhb6dhB5g"
+              }
+            }
+          ]
+        },
+        "industrySegments": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Swh4ONc3k1wiKF3dhH1rC"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "52NaF4LLpr4XHnjAyovCdX"
+              }
+            }
+          ]
+        },
+        "specifications": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1Fr36tR5ubNDAd2YFbvR4y"
+              }
+            }
+          ]
+        },
+        "polymerSubgroup": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u962r8i34sue"
+          }
+        },
+        "id": "1hs0EacUXCfz6CysAqzikR",
+        "type": "Entry",
+        "createdAt": "2022-09-29T09:52:01.135Z",
+        "updatedAt": "2022-10-24T11:10:26.592Z",
+        "environment": {
+          "sys": {
+            "id": "develop",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2022-10-24T11:10:26.592Z",
+        "firstPublishedAt": "2022-09-29T09:52:01.135Z",
+        "revision": 6,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Acetal (POM) Copolymer"
+        },
+        "brand": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7vsFSlUZrwRFZJI9OEqE5p"
+            }
+          }
+        },
+        "description": {
+          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
+        },
+        "form": {
+          "en-US": "Granules"
+        },
+        "quality": {
+          "en-US": "Prime"
+        },
+        "ranking": {
+          "en-US": 2
+        },
+        "ulPortfolio": {
+          "en-US": true
+        },
+        "fillers": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "sJdw6DT9vRN5IDCuttjyi"
+              }
+            }
+          ]
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7wAPCMMQo0MUPXqynqSu6R"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4c69FMhPkmCgKe1jN99dKs"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1C4N6Sgtom7ax5lxCk6HsW"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5HkDpOy5uB4kcZN7YWNc4E"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "21si4J9Ow9XuCMhb6dhB5g"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Z5LFiRUd2wA96xs4ponBH"
+              }
+            }
+          ]
+        },
+        "industrySegments": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3zGRb2Z0xGEOMdoDCUyo47"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5UNQTNC2MwGu56LTuNvIK0"
+              }
+            }
+          ]
+        },
+        "specifications": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3wEPZQRLvvDTnFFEnujkM0"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1Fr36tR5ubNDAd2YFbvR4y"
+              }
+            }
+          ]
+        },
+        "polymerSubgroup": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u962r8i34sue"
+          }
+        },
         "id": "142",
         "type": "Entry",
         "createdAt": "2022-09-29T16:01:03.928Z",
@@ -91,15 +397,6 @@
               }
             }
           ]
-        },
-        "producer": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "producer-19014"
-            }
-          }
         },
         "brand": {
           "en-US": {
@@ -236,15 +533,6 @@
             }
           ]
         },
-        "producer": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "1RgmsabLIxc8GvvdRQRu9t"
-            }
-          }
-        },
         "industrySegments": {
           "en-US": [
             {
@@ -320,372 +608,6 @@
             }
           }
         }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "u962r8i34sue"
-          }
-        },
-        "id": "5SDpFXxfpVy8hmV6AB08wy",
-        "type": "Entry",
-        "createdAt": "2022-09-30T10:44:25.893Z",
-        "updatedAt": "2022-10-03T12:46:46.002Z",
-        "environment": {
-          "sys": {
-            "id": "develop",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 14,
-        "publishedAt": "2022-10-03T12:46:46.002Z",
-        "firstPublishedAt": "2022-09-30T10:44:25.893Z",
-        "revision": 3,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "product"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "PBT"
-        },
-        "description": {
-          "en-US": "__Ultradur® – the polybutylene terephthalate (PBT) for high-quality components__\n\nUltradur® is BASF’s brand name for its line of partially crystalline, thermoplastic, saturated polyesters derived from polybutylene terephthalate (PBT). They are employed as materials for high-quality technical components in many industry sectors.\n\nUltradur® is especially suited for components in automotive construction as well as electrical engineering and electronics, but also for household, construction and packaging applications.\n\nUltradur® is a highly stressable material:\n\n- high rigidity and strength\n- very good dimensional stability under heat\n- low water absorption\n- good resistance to many chemicals\n- exceptional resistance to weathering\n- excellent heat ageing behavior"
-        },
-        "form": {
-          "en-US": "Granules"
-        },
-        "quality": {
-          "en-US": "Prime"
-        },
-        "ranking": {
-          "en-US": 3
-        },
-        "ulPortfolio": {
-          "en-US": true
-        },
-        "fillers": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "6wru4Mdi5GoWwljMPfiJjQ"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "2II1dkFbYoFFRwh1qU4lqb"
-              }
-            }
-          ]
-        },
-        "features": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Z5LFiRUd2wA96xs4ponBH"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "21si4J9Ow9XuCMhb6dhB5g"
-              }
-            }
-          ]
-        },
-        "processes": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "44KWC6petV6322ukUYIhxZ"
-              }
-            }
-          ]
-        },
-        "producer": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "1U8Qpb3hw9WTEeBZIJwo6q"
-            }
-          }
-        },
-        "industrySegments": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Swh4ONc3k1wiKF3dhH1rC"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "52NaF4LLpr4XHnjAyovCdX"
-              }
-            }
-          ]
-        },
-        "specifications": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1Fr36tR5ubNDAd2YFbvR4y"
-              }
-            }
-          ]
-        },
-        "brand": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "11XedMQUUKUf6hVz1V1Osw"
-            }
-          }
-        },
-        "polymerSubgroup": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6iAxcAfKJvm2zofKbIUfyD"
-            }
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "u962r8i34sue"
-          }
-        },
-        "id": "1hs0EacUXCfz6CysAqzikR",
-        "type": "Entry",
-        "createdAt": "2022-09-29T09:52:01.135Z",
-        "updatedAt": "2022-10-03T12:46:34.700Z",
-        "environment": {
-          "sys": {
-            "id": "develop",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 22,
-        "publishedAt": "2022-10-03T12:46:34.700Z",
-        "firstPublishedAt": "2022-09-29T09:52:01.135Z",
-        "revision": 5,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "product"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Acetal (POM) Copolymer"
-        },
-        "description": {
-          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
-        },
-        "form": {
-          "en-US": "Granules"
-        },
-        "quality": {
-          "en-US": "Prime"
-        },
-        "ranking": {
-          "en-US": 2
-        },
-        "ulPortfolio": {
-          "en-US": true
-        },
-        "fillers": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "sJdw6DT9vRN5IDCuttjyi"
-              }
-            }
-          ]
-        },
-        "features": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "7wAPCMMQo0MUPXqynqSu6R"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4c69FMhPkmCgKe1jN99dKs"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1C4N6Sgtom7ax5lxCk6HsW"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5HkDpOy5uB4kcZN7YWNc4E"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "21si4J9Ow9XuCMhb6dhB5g"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Z5LFiRUd2wA96xs4ponBH"
-              }
-            }
-          ]
-        },
-        "processes": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "44KWC6petV6322ukUYIhxZ"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "7d3sGmiWexhcqWvXweUmMb"
-              }
-            }
-          ]
-        },
-        "producer": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "1RgmsabLIxc8GvvdRQRu9t"
-            }
-          }
-        },
-        "industrySegments": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3zGRb2Z0xGEOMdoDCUyo47"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5UNQTNC2MwGu56LTuNvIK0"
-              }
-            }
-          ]
-        },
-        "specifications": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3wEPZQRLvvDTnFFEnujkM0"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1Fr36tR5ubNDAd2YFbvR4y"
-              }
-            }
-          ]
-        },
-        "brand": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "7vsFSlUZrwRFZJI9OEqE5p"
-            }
-          }
-        },
-        "polymerSubgroup": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6iAxcAfKJvm2zofKbIUfyD"
-            }
-          }
-        }
-      }
-    }
-  ],
-  "errors": [
-    {
-      "sys": {
-        "id": "notResolvable",
-        "type": "error"
-      },
-      "details": {
-        "type": "Link",
-        "linkType": "Asset",
-        "id": "4IcqbMJ2x0TsXNvVu7PcSs"
       }
     }
   ],
@@ -1405,43 +1327,6 @@
               "id": "u962r8i34sue"
             }
           },
-          "id": "44KWC6petV6322ukUYIhxZ",
-          "type": "Entry",
-          "createdAt": "2022-10-03T07:27:04.526Z",
-          "updatedAt": "2022-10-03T07:27:04.526Z",
-          "environment": {
-            "sys": {
-              "id": "develop",
-              "type": "Link",
-              "linkType": "Environment"
-            }
-          },
-          "publishedVersion": 1,
-          "publishedAt": "2022-10-03T07:27:04.526Z",
-          "firstPublishedAt": "2022-10-03T07:27:04.526Z",
-          "revision": 1,
-          "contentType": {
-            "sys": {
-              "type": "Link",
-              "linkType": "ContentType",
-              "id": "process"
-            }
-          }
-        },
-        "fields": {}
-      },
-      {
-        "metadata": {
-          "tags": []
-        },
-        "sys": {
-          "space": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Space",
-              "id": "u962r8i34sue"
-            }
-          },
           "id": "4NzdRTSxB3BupbBtYqMIs0",
           "type": "Entry",
           "createdAt": "2022-09-30T10:33:48.039Z",
@@ -2102,56 +1987,6 @@
         "fields": {
           "name": {
             "en-US": "Fatigue resistance"
-          }
-        }
-      },
-      {
-        "metadata": {
-          "tags": []
-        },
-        "sys": {
-          "space": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Space",
-              "id": "u962r8i34sue"
-            }
-          },
-          "id": "producer-19014",
-          "type": "Entry",
-          "createdAt": "2022-10-12T13:59:04.503Z",
-          "updatedAt": "2022-10-12T13:59:04.503Z",
-          "environment": {
-            "sys": {
-              "id": "develop",
-              "type": "Link",
-              "linkType": "Environment"
-            }
-          },
-          "publishedVersion": 6,
-          "publishedAt": "2022-10-12T13:59:04.503Z",
-          "firstPublishedAt": "2022-10-12T13:59:04.503Z",
-          "revision": 1,
-          "contentType": {
-            "sys": {
-              "type": "Link",
-              "linkType": "ContentType",
-              "id": "producer"
-            }
-          }
-        },
-        "fields": {
-          "name": {
-            "en-US": "Domo"
-          },
-          "logo": {
-            "en-US": {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "4IcqbMJ2x0TsXNvVu7PcSs"
-              }
-            }
           }
         }
       },
