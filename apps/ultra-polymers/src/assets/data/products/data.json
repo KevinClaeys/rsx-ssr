@@ -21,7 +21,7 @@
         "id": "5SDpFXxfpVy8hmV6AB08wy",
         "type": "Entry",
         "createdAt": "2022-09-30T10:44:25.893Z",
-        "updatedAt": "2022-10-24T11:11:24.921Z",
+        "updatedAt": "2022-10-26T08:10:01.198Z",
         "environment": {
           "sys": {
             "id": "develop",
@@ -29,10 +29,10 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 16,
-        "publishedAt": "2022-10-24T11:11:24.921Z",
+        "publishedVersion": 18,
+        "publishedAt": "2022-10-26T08:10:01.198Z",
         "firstPublishedAt": "2022-09-30T10:44:25.893Z",
-        "revision": 4,
+        "revision": 5,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -140,6 +140,15 @@
               "type": "Link",
               "linkType": "Entry",
               "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        },
+        "seoMetadata": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "sqXzmOTcdPggplaheB46e"
             }
           }
         }
@@ -608,6 +617,19 @@
             }
           }
         }
+      }
+    }
+  ],
+  "errors": [
+    {
+      "sys": {
+        "id": "notResolvable",
+        "type": "error"
+      },
+      "details": {
+        "type": "Link",
+        "linkType": "Entry",
+        "id": "6TbDuAZ2PTw2UGZDiNorwp"
       }
     }
   ],
@@ -2031,6 +2053,73 @@
           },
           "percentage": {
             "en-US": 10
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "u962r8i34sue"
+            }
+          },
+          "id": "sqXzmOTcdPggplaheB46e",
+          "type": "Entry",
+          "createdAt": "2022-10-26T08:09:53.859Z",
+          "updatedAt": "2022-10-26T08:09:53.859Z",
+          "environment": {
+            "sys": {
+              "id": "develop",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 12,
+          "publishedAt": "2022-10-26T08:09:53.859Z",
+          "firstPublishedAt": "2022-10-26T08:09:53.859Z",
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "seoMetadata"
+            }
+          }
+        },
+        "fields": {
+          "internalName": {
+            "en-US": "pbt"
+          },
+          "title": {
+            "en-US": "PBT"
+          },
+          "urlSlug": {
+            "en-US": "pbt"
+          },
+          "description": {
+            "en-US": "PBT product description here"
+          },
+          "keywords": {
+            "en-US": [
+              {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Entry",
+                  "id": "6TbDuAZ2PTw2UGZDiNorwp"
+                }
+              }
+            ]
+          },
+          "noIndex": {
+            "en-US": false
+          },
+          "noFollow": {
+            "en-US": false
           }
         }
       }
