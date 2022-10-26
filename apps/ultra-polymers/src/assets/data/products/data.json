@@ -18,6 +18,157 @@
             "id": "u962r8i34sue"
           }
         },
+        "id": "5SDpFXxfpVy8hmV6AB08wy",
+        "type": "Entry",
+        "createdAt": "2022-09-30T10:44:25.893Z",
+        "updatedAt": "2022-10-26T14:34:53.002Z",
+        "environment": {
+          "sys": {
+            "id": "develop",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2022-10-26T14:34:53.002Z",
+        "firstPublishedAt": "2022-09-30T10:44:25.893Z",
+        "revision": 8,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "PBT"
+        },
+        "slug": {
+          "en-US": "pbt"
+        },
+        "description": {
+          "en-US": "__Ultradur® – the polybutylene terephthalate (PBT) for high-quality components__\n\nUltradur® is BASF’s brand name for its line of partially crystalline, thermoplastic, saturated polyesters derived from polybutylene terephthalate (PBT). They are employed as materials for high-quality technical components in many industry sectors.\n\nUltradur® is especially suited for components in automotive construction as well as electrical engineering and electronics, but also for household, construction and packaging applications.\n\nUltradur® is a highly stressable material:\n\n- high rigidity and strength\n- very good dimensional stability under heat\n- low water absorption\n- good resistance to many chemicals\n- exceptional resistance to weathering\n- excellent heat ageing behavior"
+        },
+        "brand": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "11XedMQUUKUf6hVz1V1Osw"
+            }
+          }
+        },
+        "form": {
+          "en-US": "Granules"
+        },
+        "quality": {
+          "en-US": "Prime"
+        },
+        "ranking": {
+          "en-US": 3
+        },
+        "fillers": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6wru4Mdi5GoWwljMPfiJjQ"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2II1dkFbYoFFRwh1qU4lqb"
+              }
+            }
+          ]
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Z5LFiRUd2wA96xs4ponBH"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "21si4J9Ow9XuCMhb6dhB5g"
+              }
+            }
+          ]
+        },
+        "industrySegments": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Swh4ONc3k1wiKF3dhH1rC"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "52NaF4LLpr4XHnjAyovCdX"
+              }
+            }
+          ]
+        },
+        "specifications": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1Fr36tR5ubNDAd2YFbvR4y"
+              }
+            }
+          ]
+        },
+        "polymerSubgroup": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        },
+        "seoMetadata": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "sqXzmOTcdPggplaheB46e"
+            }
+          }
+        },
+        "ulPortfolio": {
+          "en-US": true
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u962r8i34sue"
+          }
+        },
         "id": "1hs0EacUXCfz6CysAqzikR",
         "type": "Entry",
         "createdAt": "2022-09-29T09:52:01.135Z",
@@ -173,157 +324,6 @@
         },
         "ulPortfolio": {
           "en-US": true
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "u962r8i34sue"
-          }
-        },
-        "id": "5SDpFXxfpVy8hmV6AB08wy",
-        "type": "Entry",
-        "createdAt": "2022-09-30T10:44:25.893Z",
-        "updatedAt": "2022-10-26T13:06:23.911Z",
-        "environment": {
-          "sys": {
-            "id": "develop",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 22,
-        "publishedAt": "2022-10-26T13:06:23.911Z",
-        "firstPublishedAt": "2022-09-30T10:44:25.893Z",
-        "revision": 7,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "product"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "PBT"
-        },
-        "slug": {
-          "en-US": "pbt"
-        },
-        "description": {
-          "en-US": "__Ultradur® – the polybutylene terephthalate (PBT) for high-quality components__\n\nUltradur® is BASF’s brand name for its line of partially crystalline, thermoplastic, saturated polyesters derived from polybutylene terephthalate (PBT). They are employed as materials for high-quality technical components in many industry sectors.\n\nUltradur® is especially suited for components in automotive construction as well as electrical engineering and electronics, but also for household, construction and packaging applications.\n\nUltradur® is a highly stressable material:\n\n- high rigidity and strength\n- very good dimensional stability under heat\n- low water absorption\n- good resistance to many chemicals\n- exceptional resistance to weathering\n- excellent heat ageing behavior"
-        },
-        "brand": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "11XedMQUUKUf6hVz1V1Osw"
-            }
-          }
-        },
-        "form": {
-          "en-US": "Granules"
-        },
-        "quality": {
-          "en-US": "Prime"
-        },
-        "ranking": {
-          "en-US": 3
-        },
-        "fillers": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "6wru4Mdi5GoWwljMPfiJjQ"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "2II1dkFbYoFFRwh1qU4lqb"
-              }
-            }
-          ]
-        },
-        "features": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Z5LFiRUd2wA96xs4ponBH"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "21si4J9Ow9XuCMhb6dhB5g"
-              }
-            }
-          ]
-        },
-        "industrySegments": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Swh4ONc3k1wiKF3dhH1rC"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "52NaF4LLpr4XHnjAyovCdX"
-              }
-            }
-          ]
-        },
-        "specifications": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1Fr36tR5ubNDAd2YFbvR4y"
-              }
-            }
-          ]
-        },
-        "polymerSubgroup": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6iAxcAfKJvm2zofKbIUfyD"
-            }
-          }
-        },
-        "seoMetadata": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "sqXzmOTcdPggplaheB46e"
-            }
-          }
-        },
-        "ulPortfolio": {
-          "en-US": false
         }
       }
     },
@@ -1655,7 +1655,7 @@
           "id": "6MvXpKkxsbw7E3zPfVOSU4",
           "type": "Entry",
           "createdAt": "2022-10-26T09:43:14.870Z",
-          "updatedAt": "2022-10-26T09:43:14.870Z",
+          "updatedAt": "2022-10-26T13:32:20.594Z",
           "environment": {
             "sys": {
               "id": "develop",
@@ -1663,10 +1663,10 @@
               "linkType": "Environment"
             }
           },
-          "publishedVersion": 7,
-          "publishedAt": "2022-10-26T09:43:14.870Z",
+          "publishedVersion": 9,
+          "publishedAt": "2022-10-26T13:32:20.594Z",
           "firstPublishedAt": "2022-10-26T09:43:14.870Z",
-          "revision": 1,
+          "revision": 2,
           "contentType": {
             "sys": {
               "type": "Link",
@@ -1680,7 +1680,7 @@
             "en-US": "Tenac Internal Name"
           },
           "title": {
-            "en-US": "Tenac"
+            "en-US": "A custom Tenac Title"
           },
           "description": {
             "en-US": "A Custom Tenac description"
