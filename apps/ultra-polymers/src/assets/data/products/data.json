@@ -18,6 +18,176 @@
             "id": "u962r8i34sue"
           }
         },
+        "id": "1hs0EacUXCfz6CysAqzikR",
+        "type": "Entry",
+        "createdAt": "2022-09-29T09:52:01.135Z",
+        "updatedAt": "2022-10-26T12:42:31.775Z",
+        "environment": {
+          "sys": {
+            "id": "develop",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 29,
+        "publishedAt": "2022-10-26T12:42:31.775Z",
+        "firstPublishedAt": "2022-09-29T09:52:01.135Z",
+        "revision": 7,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "product"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Acetal (POM) Copolymer"
+        },
+        "slug": {
+          "en-US": "asahi-acetal-pom-copolymer"
+        },
+        "description": {
+          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
+        },
+        "brand": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "7vsFSlUZrwRFZJI9OEqE5p"
+            }
+          }
+        },
+        "form": {
+          "en-US": "Granules"
+        },
+        "quality": {
+          "en-US": "Prime"
+        },
+        "ranking": {
+          "en-US": 2
+        },
+        "fillers": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "sJdw6DT9vRN5IDCuttjyi"
+              }
+            }
+          ]
+        },
+        "features": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "7wAPCMMQo0MUPXqynqSu6R"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4c69FMhPkmCgKe1jN99dKs"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1C4N6Sgtom7ax5lxCk6HsW"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5HkDpOy5uB4kcZN7YWNc4E"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "21si4J9Ow9XuCMhb6dhB5g"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Z5LFiRUd2wA96xs4ponBH"
+              }
+            }
+          ]
+        },
+        "industrySegments": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3zGRb2Z0xGEOMdoDCUyo47"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5UNQTNC2MwGu56LTuNvIK0"
+              }
+            }
+          ]
+        },
+        "specifications": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3wEPZQRLvvDTnFFEnujkM0"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1Fr36tR5ubNDAd2YFbvR4y"
+              }
+            }
+          ]
+        },
+        "polymerSubgroup": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "6iAxcAfKJvm2zofKbIUfyD"
+            }
+          }
+        },
+        "ulPortfolio": {
+          "en-US": true
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "u962r8i34sue"
+          }
+        },
         "id": "47AdD7tXakHF9aVX6xLxRw",
         "type": "Entry",
         "createdAt": "2022-09-30T10:45:38.535Z",
@@ -458,173 +628,6 @@
         },
         "ulPortfolio": {
           "en-US": false
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "u962r8i34sue"
-          }
-        },
-        "id": "1hs0EacUXCfz6CysAqzikR",
-        "type": "Entry",
-        "createdAt": "2022-09-29T09:52:01.135Z",
-        "updatedAt": "2022-10-24T11:10:26.592Z",
-        "environment": {
-          "sys": {
-            "id": "develop",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 24,
-        "publishedAt": "2022-10-24T11:10:26.592Z",
-        "firstPublishedAt": "2022-09-29T09:52:01.135Z",
-        "revision": 6,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "product"
-          }
-        }
-      },
-      "fields": {
-        "name": {
-          "en-US": "Acetal (POM) Copolymer"
-        },
-        "brand": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "7vsFSlUZrwRFZJI9OEqE5p"
-            }
-          }
-        },
-        "description": {
-          "en-US": "Asahi’s Tenac™ homopolymer acetal resins and Tenac C™ copolymer acetal resins or POM possess balanced combinations of the properties required for engineering plastics, in addition to ease of molding throughout the range of conditions generally employed for polyacetal resins. They display particularly high performance in relation to the following properties, over a broad temperature range."
-        },
-        "form": {
-          "en-US": "Granules"
-        },
-        "quality": {
-          "en-US": "Prime"
-        },
-        "ranking": {
-          "en-US": 2
-        },
-        "ulPortfolio": {
-          "en-US": true
-        },
-        "fillers": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "sJdw6DT9vRN5IDCuttjyi"
-              }
-            }
-          ]
-        },
-        "features": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "7wAPCMMQo0MUPXqynqSu6R"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4c69FMhPkmCgKe1jN99dKs"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1C4N6Sgtom7ax5lxCk6HsW"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5HkDpOy5uB4kcZN7YWNc4E"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "21si4J9Ow9XuCMhb6dhB5g"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3Z5LFiRUd2wA96xs4ponBH"
-              }
-            }
-          ]
-        },
-        "industrySegments": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3zGRb2Z0xGEOMdoDCUyo47"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "5UNQTNC2MwGu56LTuNvIK0"
-              }
-            }
-          ]
-        },
-        "specifications": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "3wEPZQRLvvDTnFFEnujkM0"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "1Fr36tR5ubNDAd2YFbvR4y"
-              }
-            }
-          ]
-        },
-        "polymerSubgroup": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "6iAxcAfKJvm2zofKbIUfyD"
-            }
-          }
         }
       }
     }
